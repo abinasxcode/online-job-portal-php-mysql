@@ -426,7 +426,7 @@ body.dark-mode .timeline-year {
           <div class="social">
             <a href="#"><span class="icon-linkedin"></span></a>
             <a href="#"><span class="icon-twitter"></span></a>
-            <a href="mailto:abinash.dev2026@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a href="mailto:abinashkundu8@gmail.com"><i class="fa fa-envelope"></i></a>
           </div>
         </div>
       </div>

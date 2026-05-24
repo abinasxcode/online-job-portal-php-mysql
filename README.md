@@ -62,6 +62,6 @@ See the **LICENSE** file for full terms.
 ## Author
 **Abinash**  
 - GitHub: [abinasxcode](https://github.com/abinasxcode)
-- Email: [abinash.dev2026@gmail.com](mailto:abinash.dev2026@gmail.com)
+- Email: [abinashkundu8@gmail.com](mailto:abinashkundu8@gmail.com)
 
 © 2026 Abinash. All rights reserved.

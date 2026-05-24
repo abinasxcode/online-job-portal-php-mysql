@@ -72,15 +72,15 @@ if (strpos($_SERVER['HTTP_HOST'], 'localhost:8000') === false) {
           </div>
           <div class="text-muted small">
             77 Test Street, XYZ<br>
-            <a href="mailto:abinash.dev2026@gmail.com">abinash.dev2026@gmail.com</a><br>
-            <a href="mailto:abinash.dev2026@gmail.com">abinash.dev2026@gmail.com</a>
+            <a href="mailto:abinashkundu8@gmail.com">abinashkundu8@gmail.com</a><br>
+            <a href="mailto:abinashkundu8@gmail.com">abinashkundu8@gmail.com</a>
           </div>
         </div>
       </div>
       <hr class="ft-hr">
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-center pb-3">
         <div class="text-muted small order-2 order-md-1">
-          © <?php echo date('Y'); ?> Hire Loop. Developed by <a href="mailto:abinash.dev2026@gmail.com">Abinash</a>.
+          © <?php echo date('Y'); ?> Hire Loop. Developed by <a href="mailto:abinashkundu8@gmail.com">Abinash</a>.
           <br>
           All rights reserved.
         </div>
