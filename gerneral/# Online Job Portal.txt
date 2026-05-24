@@ -1,0 +1,107 @@
+# Online Job Portal
+
+[Online Job Portal](http://localhost:8000/index.php)
+- 
+          [Home](http://localhost:8000/index.php)
+        
+- 
+          [About](http://localhost:8000)
+        
+- 
+          [Contact](http://localhost:8000)
+        
+- 
+          [FAQs](http://localhost:8000)
+        
+- 
+          [Companies](http://localhost:8000/index.php/gerneral/companies.php)
+        
+- 
+          [Explore Jobs](http://localhost:8000/index.php/findjobs.php)
+        
+- 
+    [Log In/Register](http://localhost:8000/index.php/auth/loginRegister.php)
+  
+[Home](http://localhost:8000/index.php)
+[About](http://localhost:8000)
+[Contact](http://localhost:8000)
+[FAQs](http://localhost:8000)
+[Companies](http://localhost:8000/index.php/gerneral/companies.php)
+[Explore Jobs](http://localhost:8000/index.php/findjobs.php)
+[Log In/Register](http://localhost:8000/index.php/auth/loginRegister.php)
+
+# Connecting Careers, Creating Futures
+Who understands it’s personal? We do. To us, it’s about you.
+
+###### Trending
+- 
+                    [customer service](http://localhost:8000)
+                  
+- 
+                    [designer](http://localhost:8000)
+                  
+- 
+                    [IT](http://localhost:8000)
+                  
+- 
+                    [developer](http://localhost:8000)
+                  
+- 
+                    [assistant](http://localhost:8000)
+                  
+[customer service](http://localhost:8000)
+[designer](http://localhost:8000)
+[IT](http://localhost:8000)
+[developer](http://localhost:8000)
+[assistant](http://localhost:8000)
+
+#### Recently Posted Jobs
+
+## Looking for a job?
+Create your free account and discover roles from vetted employers.
+-  1-click apply
+-  Verified employers
+-  Smart job alerts
+[Sign Up](http://localhost:8000/index.php/auth/loginRegister.php)
+Tell us your skills & availability and we’ll surface roles that fit—no noise.
+
+##### For Job Seekers
+- [Register](http://localhost:8000/index.php/loginRegister.php)
+- [Search Jobs](http://localhost:8000/index.php/findjobs.php)
+- [Login](http://localhost:8000/index.php/loginRegister.php)
+- [FAQs](http://localhost:8000/index.php/faqs.php)
+[Register](http://localhost:8000/index.php/loginRegister.php)
+[Search Jobs](http://localhost:8000/index.php/findjobs.php)
+[Login](http://localhost:8000/index.php/loginRegister.php)
+[FAQs](http://localhost:8000/index.php/faqs.php)
+
+##### For Employers
+- [Employer Dashboard](http://localhost:8000/index.php/users/employer_dashboard.php)
+- [Post a Job](http://localhost:8000/index.php/jobs/post-job.php)
+- [Login](http://localhost:8000/index.php/loginRegister.php)
+- [FAQs](http://localhost:8000/index.php/faqs.php)
+[Employer Dashboard](http://localhost:8000/index.php/users/employer_dashboard.php)
+[Post a Job](http://localhost:8000/index.php/jobs/post-job.php)
+[Login](http://localhost:8000/index.php/loginRegister.php)
+[FAQs](http://localhost:8000/index.php/faqs.php)
+
+##### Company
+- [About Us](http://localhost:8000/index.php/about.php)
+- [Careers](http://localhost:8000/index.php/careers.php)
+- [Blog](http://localhost:8000/index.php/blog.php)
+- [Resources](http://localhost:8000/index.php/resources.php)
+[About Us](http://localhost:8000/index.php/about.php)
+[Careers](http://localhost:8000/index.php/careers.php)
+[Blog](http://localhost:8000/index.php/blog.php)
+[Resources](http://localhost:8000/index.php/resources.php)
+
+##### Contact
+[hello@example.com](mailto:hello@example.com)
+[codeastro.com](https://codeastro.com)
+[CodeAstro](https://codeastro.com)
+- [Terms](http://localhost:8000/index.php/terms.php)
+- [Privacy](http://localhost:8000/index.php/privacy.php)
+- [Contact](http://localhost:8000/index.php/contact.php)
+[Terms](http://localhost:8000/index.php/terms.php)
+[Privacy](http://localhost:8000/index.php/privacy.php)
+[Contact](http://localhost:8000/index.php/contact.php)

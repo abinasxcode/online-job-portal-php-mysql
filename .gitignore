@@ -1,0 +1,14 @@
+# Local environment database files
+/ojp_deployed_backup.sql
+
+# User uploaded CV files (Keep directory but ignore files)
+/user-cvs/*
+!/user-cvs/.gitkeep
+
+# System & OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Log files
+*.log
