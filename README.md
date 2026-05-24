@@ -28,7 +28,7 @@ including job posting, job searching, and applicant management.
 - Web browser (Chrome, Firefox, Edge, Brave)
 
 ## Installation
-1. Download the project from the official source (codeastro.com).
+1. Clone this repository using `git clone https://github.com/abinasxcode/online-job-portal-php-mysql.git`.
 2. Extract the project into your web server directory (e.g. `htdocs`).
 3. Create a MySQL database.
 4. Import the provided `.sql` file into the database.
@@ -60,7 +60,8 @@ This project is licensed under the **Educational Use License (EUL)**.
 See the **LICENSE** file for full terms.
 
 ## Author
-**CodeAstro**  
-https://codeastro.com
+**Abinash**  
+- GitHub: [abinasxcode](https://github.com/abinasxcode)
+- Email: [abinash.dev2026@gmail.com](mailto:abinash.dev2026@gmail.com)
 
-© 2026 CodeAstro. All rights reserved.
+© 2026 Abinash. All rights reserved.
