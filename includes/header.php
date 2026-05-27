@@ -6,6 +6,7 @@ if (strpos($_SERVER['HTTP_HOST'], 'localhost:8000') === false) {
     $project_folder = explode('/', trim($_SERVER['SCRIPT_NAME'], '/'))[0];
     $base_url .= '/' . $project_folder;
 }
+$current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <!doctype html>
 <html lang="en">
@@ -81,11 +82,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   display: inline-block;
   padding-bottom: 4px;
   font-weight: 500;
-  color: #334155 !important;
+  color: rgba(255, 255, 255, 0.85) !important;
   transition: color .3s ease;
 }
 .navbar-nav > .nav-item > a.nav-link:not(.dropdown-toggle):not(.btn):hover {
-  color: #6366f1 !important;
+  color: #5eead4 !important;
 }
 
 .navbar-nav > .nav-item > a.nav-link:not(.dropdown-toggle):not(.btn)::after {
@@ -99,8 +100,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   transition: transform .3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navbar-nav > .nav-item > a.nav-link:not(.dropdown-toggle):not(.btn):hover::after {
+.navbar-nav > .nav-item > a.nav-link:not(.dropdown-toggle):not(.btn):hover::after,
+.navbar-nav > .nav-item > a.nav-link.active:not(.dropdown-toggle):not(.btn)::after {
   transform: scaleX(1);
+}
+
+.navbar-nav > .nav-item > a.nav-link.active:not(.dropdown-toggle):not(.btn) {
+  color: #c4b5fd !important;
+  font-weight: 700;
 }
 
 /* ============ SCROLL REVEAL UTILITY ============ */
@@ -521,6 +528,9 @@ body.dark-mode .navbar-nav > .nav-item > a.nav-link {
 body.dark-mode .navbar-nav > .nav-item > a.nav-link:hover {
   color: #a78bfa !important;
 }
+body.dark-mode .navbar-nav > .nav-item > a.nav-link.active {
+  color: #a78bfa !important;
+}
 body.dark-mode .navbar-brand {
   background: linear-gradient(135deg, #a78bfa, #5eead4) !important;
   -webkit-background-clip: text !important;
@@ -690,6 +700,17 @@ body, .navbar, .site-wrap, .job-card, .rj-card, .cta-card,
   transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
 }
 
+/* Mobile navbar styling */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #0f172a !important;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  }
+}
+
     </style>
    
   </head>
@@ -752,22 +773,22 @@ body, .navbar, .site-wrap, .job-card, .rj-card, .cta-card,
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
 
         <li class="nav-item animate__animated animate__fadeInDown stagger-2">
-          <a class="nav-link active" aria-current="page" href="<?php echo $base_url; ?>">Home</a>
+          <a class="nav-link <?php echo ($current_page == 'index.php' || $current_page == '') ? 'active' : ''; ?>" aria-current="page" href="<?php echo $base_url; ?>">Home</a>
         </li>
         <li class="nav-item animate__animated animate__fadeInDown stagger-3">
-          <a href="<?php echo $base_url; ?>/about.php" class="nav-link active">About</a>
+          <a href="<?php echo $base_url; ?>/about.php" class="nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">About</a>
         </li>
         <li class="nav-item animate__animated animate__fadeInDown stagger-4">
-          <a href="<?php echo $base_url; ?>/contact.php" class="nav-link active">Contact</a>
+          <a href="<?php echo $base_url; ?>/contact.php" class="nav-link <?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact</a>
         </li>
         <li class="nav-item animate__animated animate__fadeInDown stagger-5">
-          <a href="<?php echo $base_url; ?>/faqs.php" class="nav-link active">FAQs</a>
+          <a href="<?php echo $base_url; ?>/faqs.php" class="nav-link <?php echo ($current_page == 'faqs.php') ? 'active' : ''; ?>">FAQs</a>
         </li>
         <li class="nav-item animate__animated animate__fadeInDown stagger-5">
-          <a href="<?php echo $base_url; ?>/gerneral/companies.php" class="nav-link active">Companies</a>
+          <a href="<?php echo $base_url; ?>/gerneral/companies.php" class="nav-link <?php echo ($current_page == 'companies.php') ? 'active' : ''; ?>">Companies</a>
         </li>
         <li class="nav-item animate__animated animate__fadeInDown stagger-5">
-          <a href="<?php echo $base_url; ?>/findjobs.php" class="nav-link active">Explore Jobs</a>
+          <a href="<?php echo $base_url; ?>/findjobs.php" class="nav-link <?php echo ($current_page == 'findjobs.php') ? 'active' : ''; ?>">Explore Jobs</a>
         </li>
 
         <?php if (isset($_SESSION['username'])): ?>
